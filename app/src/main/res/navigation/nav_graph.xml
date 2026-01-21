@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.sample21.ui.dashboard.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/createGoalFragment"
+        android:name="com.example.sample21.ui.goals.CreateGoalFragment"
+        android:label="fragment_create_goal"
+        tools:layout="@layout/fragment_create_goal" />
+    <fragment
+        android:id="@+id/goalsDashboardFragment"
+        android:name="com.example.sample21.ui.dashboard.GoalsDashboardFragment"
+        android:label="fragment_goals_dashboard"
+        tools:layout="@layout/fragment_goals_dashboard" />
+    <fragment
+        android:id="@+id/withdrawFragment"
+        android:name="com.example.sample21.ui.withdraw.WithdrawFragment"
+        android:label="fragment_withdraw"
+        tools:layout="@layout/fragment_withdraw" />
+    <fragment
+        android:id="@+id/depositFragment"
+        android:name="com.example.sample21.ui.deposit.DepositFragment"
+        android:label="fragment_deposit"
+        tools:layout="@layout/fragment_deposit" />
+</navigation>
